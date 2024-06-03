@@ -25,3 +25,5 @@ Tercer paso: realizar pruebas
 
 
 Paso extra, en la carpeta consumer colocar los datos de un mail para las pruebas
+
+PD: El proyecto de la tarea funciono de buena manera en mi pc, pero al momento de subirlo a github y hacer pruebas de instalacion el producer dejo de funcionar arrojando error de que el script wait-for-kafka no esta en el directorio, siendo que este esta en el directorio, en el video se muestra la implementacion de lo solicitado.
