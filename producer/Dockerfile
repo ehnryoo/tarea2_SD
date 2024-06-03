@@ -15,6 +15,5 @@ RUN chmod +x wait-for-kafka.sh
 
 EXPOSE 4000
 
-ENTRYPOINT ["./wait-for-kafka.sh"]
-CMD ["kafka:9092", "python", "producer.py"]
+CMD ["/app/wait-for-kafka.sh", "kafka", "python", "producer.py"]
 
